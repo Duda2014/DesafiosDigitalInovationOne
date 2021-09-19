@@ -24,6 +24,13 @@ body
     height: 100vh;    
 
 }
+
+.instagran-celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
 .instagran-celular img {
     height: 40rem;
     margin-right: 30px;
@@ -137,7 +144,7 @@ min-height: 34rem;
     .instagram-wrapper{
         width: 90%;
     }
-    .instagran-phone{
+    .instagran-celular{
         display: none;
     }
     .instagran-continue{
